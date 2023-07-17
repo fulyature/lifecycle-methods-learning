@@ -1,0 +1,57 @@
+/**
+ * @license React
+ * react-dom.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * @license React
+ * react-jsx-runtime.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * @license React
+ * react.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * @license React
+ * scheduler.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+//! (İlk render sonrasi)yeri önemli değildir.her zaman önce constructur sonra render,sonra varsa componentdidMount.
+
+//! 1-) Bir componentin olusturulmasinda cagrilir
+
+//! 2-) Her bir state yada prop degistiginde (render) cagrilir
+
+//! 3-) Bir component DOM agacina eklendiginde calistirilir.
+
+//! 4-) Bu metot ilk render haric diger tüm render'lardan sonra cagrilir.
+
+//! ComponentDidMount
+
+//! ComponentWillUnMount
+
+//! Fetch, timer kurmak, network istegi
+
+//! Her yasam dongusu icin bir kere calisir.
